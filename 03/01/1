@@ -1,0 +1,8 @@
+TO="tarastube@yandex.ru"
+#FILE="file_name"
+TXT="Only today you can enlager your hardware"
+MSG=$TXT
+SUB="How grow up"
+
+echo $MSG | mutt -s $SUB -- $TO # -a $FILE -- $TO
+
