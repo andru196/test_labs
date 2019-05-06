@@ -1,4 +1,4 @@
-find ./ -name "#*#" -delete -print -o -name "*~" -delete -print
+find ./ -name "#*#" -type f -delete -print -o -name "*~" -type f -delete -print
 # Ищем в текущем катологе по заданным именам
 # удаляем
 # печатаем

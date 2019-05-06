@@ -1,2 +1,1 @@
-dscacheutil -q group | grep name | sed 's/.*: //' | tr -s '
-' ','
+groups | tr -s ' ' ',' 

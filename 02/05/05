@@ -1,4 +1,5 @@
-ifconfig | grep -Eo '[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}'
+ifconfig | grep -Eo '[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}' /
+| rev | cut -1 | rev
 
 # 1 Получаем список интерфейсов компьютера
 # 2 Отлавливаем подсторки с использованием регулярного выражения и флага o

@@ -1,6 +1,6 @@
 TO="tarastube@yandex.ru"
 #FILE="file_name"
-TXT="Only today you can enlager your hardware"
+TXT="WhatsUP"
 MSG=$TXT
 SUB="How grow up"
 
